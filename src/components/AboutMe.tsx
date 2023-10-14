@@ -4,7 +4,7 @@ import myPicAboutMePage from "../assets/eu - sobre.png";
 
 function AboutMe() {
   return (
-    <div className="container">
+    <div id="about_me_container">
       <header>
         <nav>
           <ul>
@@ -27,7 +27,7 @@ function AboutMe() {
         </nav>
       </header>
       <main>
-        <section>
+        <section id="about_me_page_section">
           <h1>Muito Prazer!</h1>
           <p>
             Me chamo Esdras de Melo Motta e <b>atuo</b> como

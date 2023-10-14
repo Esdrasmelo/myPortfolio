@@ -29,6 +29,21 @@ function HomePage() {
         </nav>
       </header>
       <main>
+        <section id="home_page_section">
+          <h1>Olá, sou o Esdras</h1>
+          <p>
+            <b>Desenvolvedor Back-end</b> desde os <b>16 anos de idade</b> com{" "}
+            <b>experiência</b> nas mais <b>conhecidas</b> e{" "}
+            <b>performáticas tecnologias</b> para <b>desenvolvimento web.</b>
+          </p>
+          <img
+            src={myPicHomePage}
+            id="my_home_pic"
+            alt="Foto de perfil de Esdras"
+          />
+        </section>
+      </main>
+      <footer>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="1920"
@@ -43,20 +58,7 @@ function HomePage() {
             fill="black"
           />
         </svg>
-        <section>
-          <h1>Olá, sou o Esdras</h1>
-          <p>
-            <b>Desenvolvedor Back-end</b> desde os <b>16 anos de idade</b> com{" "}
-            <b>experiência</b> nas mais <b>conhecidas</b> e{" "}
-            <b>performáticas tecnologias</b> para <b>desenvolvimento web.</b>
-          </p>
-          <img
-            src={myPicHomePage}
-            id="my_home_pic"
-            alt="Foto de perfil de Esdras"
-          />
-        </section>
-      </main>
+      </footer>
     </div>
   );
 }

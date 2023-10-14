@@ -1,3 +1,8 @@
+#about_me_container {
+    overflow: hidden;
+}
+
+
 nav {
     padding: 10px;
     margin-right: 113px;
@@ -60,4 +65,19 @@ p {
     bottom: 383px;
     left: 1332px;
     top: 232px;
-  }
+}
+
+svg {
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+    fill: #000;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#about_me_page_section {
+    margin-top: 300px;
+}
