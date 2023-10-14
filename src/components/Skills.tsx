@@ -30,17 +30,45 @@ function Skills() {
         <section>
           <h1>As melhores tecnologias!</h1>
           <p>
-            Desde meu inicio como <b>desenvolvedor</b> sempre construi{" "}
-            <b>aplicações web back-end</b> utilizando as{" "}
-            <b>melhores tecnologias</b> e <b>ferramentas disponíveis</b> no
-            mercado!
+            Desde meu <strong>início</strong> como desenvolvedor, sempre
+            construí aplicações web <strong>back-end</strong> utilizando as{" "}
+            <strong>melhores</strong> tecnologias e ferramentas disponíveis no
+            mercado.
           </p>
+
           <p>
-            As <b>tecnologias</b> não são mais <b>importantes</b> do que o{" "}
-            <b>produto</b> nem suas
-            <b> regras de negócio</b> e <b>domínio</b>, mas sem elas não somos
-            <b> capazes</b> de <b>entregar</b> os <b>melhores resultados!</b>
+            Acredito que, embora as tecnologias desempenhem um papel
+            fundamental, elas não são mais importantes do que o{" "}
+            <strong>produto</strong> em si, nem do que suas{" "}
+            <strong>regras de negócio</strong> e <strong>domínio</strong>. É
+            nessa sinergia entre tecnologia e propósito que encontramos a
+            verdadeira essência do desenvolvimento de software.
           </p>
+
+          <p>
+            Com um profundo entendimento das <strong>regras de negócio</strong>{" "}
+            e do <strong>domínio</strong> em que a aplicação está inserida,
+            podemos aproveitar ao máximo as{" "}
+            <strong>melhores tecnologias</strong> disponíveis. É a combinação de
+            conhecimento técnico e compreensão do negócio que nos permite
+            entregar os <strong>melhores resultados</strong>.
+          </p>
+
+          <p>
+            Durante minha jornada, tive a oportunidade de trabalhar em diversos{" "}
+            <strong>projetos desafiadores</strong> e cada{" "}
+            <strong>experiência</strong> me ensinou{" "}
+            <strong>lições valiosas</strong> e me permitiu{" "}
+            <strong>aprimorar minhas habilidades técnicas</strong>.
+          </p>
+
+          <p>
+            Além disso, sou um defensor ávido de boas práticas de programação,
+            segurança cibernética e design de software sustentável. Acredito que
+            a qualidade do código é fundamental para a longevidade e o sucesso
+            de qualquer projeto.
+          </p>
+
           <img src={techsPic} alt="Tecnologias que trabalho" id="techs" />
         </section>
       </main>

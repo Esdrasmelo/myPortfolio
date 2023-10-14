@@ -30,7 +30,7 @@ function AboutMe() {
         <section>
           <h1>Muito Prazer!</h1>
           <p>
-            Me chamo Esdras de Melo Motta e <b>trabalho</b> como
+            Me chamo Esdras de Melo Motta e <b>atuo</b> como
             <b>desenvolvedor back-end</b> desde os meus <b>16 anos</b>.
           </p>
           <p>
@@ -38,6 +38,12 @@ function AboutMe() {
             <b>9 anos</b> de idade sou <b>apaixonado</b> por
             <b> tecnologia</b> e por tudo que envolva
             <b> criação de aplicações</b>.
+          </p>
+          <p>
+            Ao longo do tempo <b>atuando</b> como <b>desenvolvedor back-end</b>, tive a
+            oportunidade de trabalhar em mais de <b>10 projetos</b> que puderam <b>agregar</b>
+            muito à minha <b>carreira</b>, ajudando-me a <b>aprender coisas novas</b> e a
+            lidar com <b>desafios</b> e <b>contextos</b> diferentes em cada <b>cliente</b>.
           </p>
           <img
             src={myPicAboutMePage}
