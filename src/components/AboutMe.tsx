@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import "../styles/AboutMe.css";
 import myPicAboutMePage from "../assets/eu - sobre.png";
 
+
 function AboutMe() {
   return (
     <div id="about_me_container">

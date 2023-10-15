@@ -1,4 +1,3 @@
-import React from "react";
 import "../styles/Skills.css";
 import techsPic from "../assets/tecnologias.png";
 import systemicVisionPic from "../assets/systemic-vision.png";
@@ -30,7 +29,7 @@ function Skills() {
       </header>
 
       <main>
-        <section id="firstSection">
+        <section className="fade-in-section" id="firstSection">
           <h1>As melhores tecnologias!</h1>
           <p>
             Como desenvolvedor, sempre construí aplicações web{" "}
@@ -57,7 +56,7 @@ function Skills() {
           <img src={techsPic} alt="Tecnologias que trabalho" id="techs" />
         </section>
 
-        <section id="secondSection">
+        <section className="fade-in-section" id="secondSection">
           <h1>Visão Analítica e Sistêmica!</h1>
           <p>
             Minha <strong>habilidade</strong> em identificar{" "}
@@ -95,41 +94,6 @@ function Skills() {
             id="systemicVisionPic"
           />
         </section>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="1"
-          height="1"
-          viewBox="0 0 24 24"
-          fill="#FFFFFF"
-          className="circle"
-        >
-          <path
-            d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
-            stroke="black"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            fill="#FFFFFF"
-          />
-        </svg>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="1"
-          height="1"
-          viewBox="0 0 24 24"
-          fill="#FFFFFF"
-          className="circle"
-          id="secondCircle"
-        >
-          <path
-            d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
-            stroke="black"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            fill="#FFFFFF"
-          />
-        </svg>
       </main>
 
       <footer>

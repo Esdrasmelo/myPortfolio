@@ -4,6 +4,7 @@ import "fontsource-inter";
 import myPicHomePage from "../assets/eu - inicio.png";
 import { Link } from "react-router-dom";
 
+
 function HomePage() {
   return (
     <div className="container">

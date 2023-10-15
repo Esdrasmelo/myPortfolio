@@ -78,10 +78,6 @@ p {
     top: 90px;
 }
 
-.container {
-    margin-bottom: 232px;
-}
-
 footer {
     position: fixed;
     bottom: 0;
@@ -89,12 +85,13 @@ footer {
     width: 100%;
 }
 
-section {
-    padding-bottom: 200px;
+#firstSection {
+    margin-top: 200px;
+    margin-bottom: 350px;
 }
 
-#firstSection {
-    margin-top: 300px;
+#secondSection {
+    margin-bottom: 450px;
 }
 
 #systemicVisionPic {
@@ -103,22 +100,4 @@ section {
     bottom: 10px;
     left: 1300px;
     top: 870px;
-}
-
-.circle {
-    width: 16px;
-    height: 16px;
-    flex-shrink: 0;
-    position: absolute;
-    left: 1850px;
-    top: 1100px;
-}
-
-#secondCircle {
-    top: 1130px;
-
-}
-
-#skills_page_container {
-    overflow: hidden;
 }

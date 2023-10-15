@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "../styles/Curiosity.css";
 
+
 function Curiosity() {
   return (
     <div className="container">
