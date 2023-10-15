@@ -1,0 +1,56 @@
+#li_contactpage {
+    background-color: #000;
+    padding: 10px 30px 10px 30px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-top: 8px;
+}
+
+#first_contact_section {
+    margin-top: 150px;
+}
+
+p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 536px;
+    margin-top: 20px;
+}
+
+#networkPic {
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 10px;
+    left: 1300px;
+    top: 50px;
+}
+
+
+#svgLinkedin {
+    width: 80px;
+    height: auto;
+    position: absolute;
+    top: 400px;
+    left: 100px;
+}
+
+#svgGitHub {
+    width: 80px;
+    height: auto;
+    position: absolute;
+    top: 400px;
+    left: 300px;
+}
+
+#svgInstagram {
+    width: 80px;
+    height: auto;
+    position: absolute;
+    top: 400px;
+    left: 500px;
+}   

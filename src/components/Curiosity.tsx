@@ -8,7 +8,7 @@ function Curiosity() {
   window.scrollTo(0, 0);
 
   return (
-    <div className="container">
+    <div>
       <header>
         <nav>
           <ul>

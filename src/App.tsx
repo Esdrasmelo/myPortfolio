@@ -4,9 +4,11 @@ import AboutMe from "./components/AboutMe";
 import "./styles/App.css";
 import Skills from "./components/Skills";
 import Curiosity from "./components/Curiosity";
+import Contact from "./components/Contact";
 
 function App() {
   const location = useLocation();
+
   return (
     <div className="App">
       <Routes location={location} key={location.pathname}>
@@ -14,6 +16,7 @@ function App() {
         <Route path="/about" element={<AboutMe />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/curiosity" element={<Curiosity />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
   );

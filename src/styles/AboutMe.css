@@ -1,33 +1,3 @@
-#about_me_container {
-    overflow: hidden;
-}
-
-
-nav {
-    padding: 10px;
-    margin-right: 113px;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: flex-end;
-}
-
-li {
-    margin-right: 45px;
-    margin-top: 15px;
-    color: #000;
-    font-family: 'Poppins';
-
-}
-
-li a {
-    text-decoration: none;
-    color: #000;
-}
-
 #li_aboutmepage {
     background-color: #000;
     padding: 10px 30px 10px 30px;
@@ -64,20 +34,9 @@ p {
     right: 113px;
     bottom: 383px;
     left: 1332px;
-    top: 232px;
-}
-
-svg {
-    width: 100%;
-    height: auto;
-    flex-shrink: 0;
-    fill: #000;
-    box-sizing: border-box;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    top: 200px;
 }
 
 #about_me_page_section {
-    margin-top: 300px;
+    margin-top: 200px;
 }
