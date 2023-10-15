@@ -4,6 +4,8 @@ import systemicVisionPic from "../assets/systemic-vision.png";
 import { Link } from "react-router-dom";
 
 function Skills() {
+  window.scrollTo(0, 0);
+
   return (
     <div id="skills_page_container">
       <header>
@@ -29,7 +31,7 @@ function Skills() {
       </header>
 
       <main>
-        <section className="fade-in-section" id="firstSection">
+        <section id="firstSection">
           <h1>As melhores tecnologias!</h1>
           <p>
             Como desenvolvedor, sempre construí aplicações web{" "}
@@ -56,7 +58,7 @@ function Skills() {
           <img src={techsPic} alt="Tecnologias que trabalho" id="techs" />
         </section>
 
-        <section className="fade-in-section" id="secondSection">
+        <section id="secondSection">
           <h1>Visão Analítica e Sistêmica!</h1>
           <p>
             Minha <strong>habilidade</strong> em identificar{" "}

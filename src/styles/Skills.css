@@ -70,12 +70,14 @@ p {
     width: 670px;
 }
 
-#techs {
+#curiosityDataStructurePic {
     flex-shrink: 0;
     position: absolute;
     bottom: 320px;
-    left: 1190px;
+    left: 1100px;
     top: 90px;
+    width: 800px;
+    height: auto;
 }
 
 footer {
@@ -91,7 +93,7 @@ footer {
 }
 
 #secondSection {
-    margin-bottom: 450px;
+    margin-bottom: 350px;
 }
 
 #systemicVisionPic {
