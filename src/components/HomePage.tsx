@@ -3,11 +3,12 @@ import "fontsource-poppins";
 import "fontsource-inter";
 import myPicHomePage from "../assets/eu - inicio.png";
 import { Link } from "react-router-dom";
-
+import SlideInSection from "./SlideInSection";
+import SlideInParagraph from "./SlideInParagraph";
 
 function HomePage() {
   return (
-    <div className="container">
+    <div id="home_page_container">
       <header>
         <nav>
           <ul>
@@ -30,19 +31,19 @@ function HomePage() {
         </nav>
       </header>
       <main>
-        <section id="home_page_section">
+        <SlideInSection id="home_page_section">
           <h1>Olá, sou o Esdras</h1>
-          <p>
+          <SlideInParagraph>
             <b>Desenvolvedor Back-end</b> desde os <b>16 anos de idade</b> com{" "}
             <b>experiência</b> nas mais <b>conhecidas</b> e{" "}
             <b>performáticas tecnologias</b> para <b>desenvolvimento web.</b>
-          </p>
-          <img
-            src={myPicHomePage}
-            id="my_home_pic"
-            alt="Foto de perfil de Esdras"
-          />
-        </section>
+          </SlideInParagraph>
+        </SlideInSection>
+        <img
+          src={myPicHomePage}
+          id="my_home_pic"
+          alt="Foto de perfil de Esdras"
+        />
       </main>
       <footer>
         <svg

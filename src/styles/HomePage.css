@@ -40,3 +40,7 @@ p {
 #home_page_section {
   margin-top: 300px;
 }
+
+#home_page_container {
+  overflow: hidden;
+}

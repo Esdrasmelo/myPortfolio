@@ -3,12 +3,13 @@ import "../styles/Curiosity.css";
 import dataStructurePic from "../assets/curiosity-data_structure.png";
 import myPicCrashCourse from "../assets/Frame 94.png";
 import mePlayingBass from "../assets/eu - bass.png";
+import SlideInSection from "./SlideInSection";
 
 function Curiosity() {
   window.scrollTo(0, 0);
 
   return (
-    <div>
+    <div id="curiosity_page_container">
       <header>
         <nav>
           <ul>
@@ -31,7 +32,7 @@ function Curiosity() {
         </nav>
       </header>
       <main>
-        <section id="first_curiosity_section">
+        <SlideInSection id="first_curiosity_section">
           <h1 id="firstH1">
             Algoritmos, Estruturas de Dados e Arquitetura de Software
           </h1>
@@ -47,9 +48,11 @@ function Curiosity() {
             <strong>software</strong> bem <strong>arquitetado</strong> é{" "}
             <strong>certeza</strong> de <strong>sucesso!</strong>
           </p>
-          <img src={dataStructurePic} id="curiosityDataStructurePic" alt="" />
-        </section>
-        <section id="second_curiosity_section">
+        </SlideInSection>
+
+        <img src={dataStructurePic} id="curiosityDataStructurePic" alt="" />
+
+        <SlideInSection id="second_curiosity_section">
           <h1 id="secondH1">Ministrei um Minicurso na FATEC Sorocaba!</h1>
           <p id="crashCourseParagraph">
             Nunca havia <strong>ministrado</strong> nenhum (mini){" "}
@@ -68,9 +71,11 @@ function Curiosity() {
             <strong>experiência inesquecível</strong> que irá me marcar para o
             resto de minha vida!
           </p>
-          <img src={myPicCrashCourse} id="myPicCrashCourse" alt="" />
-        </section>
-        <section id="thirdy_curiosity_section">
+        </SlideInSection>
+
+        <img src={myPicCrashCourse} id="myPicCrashCourse" alt="" />
+
+        <SlideInSection id="thirdy_curiosity_section">
           <h1>Sou músico!</h1>
           <p>
             Desde <strong>criança</strong> tenho <strong>forte contato</strong>{" "}
@@ -91,8 +96,8 @@ function Curiosity() {
             </strong>
             .
           </p>
-          <img src={mePlayingBass} id="me_playing_bass" alt="" />
-        </section>
+        </SlideInSection>
+        <img src={mePlayingBass} id="me_playing_bass" alt="" />
       </main>
       <footer>
         <svg

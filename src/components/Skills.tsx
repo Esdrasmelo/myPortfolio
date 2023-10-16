@@ -2,6 +2,7 @@ import "../styles/Skills.css";
 import techsPic from "../assets/tecnologias.png";
 import systemicVisionPic from "../assets/systemic-vision.png";
 import { Link } from "react-router-dom";
+import SlideInSection from "./SlideInSection";
 
 function Skills() {
   window.scrollTo(0, 0);
@@ -31,7 +32,7 @@ function Skills() {
       </header>
 
       <main>
-        <section id="firstSection">
+        <SlideInSection id="firstSection">
           <h1>As melhores tecnologias!</h1>
           <p>
             Como desenvolvedor, sempre construí aplicações web{" "}
@@ -54,11 +55,10 @@ function Skills() {
             qualidade do código é fundamental para a longevidade e o sucesso de
             qualquer projeto.
           </p>
+        </SlideInSection>
+        <img src={techsPic} alt="Tecnologias que trabalho" id="techs" />
 
-          <img src={techsPic} alt="Tecnologias que trabalho" id="techs" />
-        </section>
-
-        <section id="secondSection">
+        <SlideInSection id="secondSection">
           <h1>Visão Analítica e Sistêmica!</h1>
           <p>
             Minha <strong>habilidade</strong> em identificar{" "}
@@ -89,13 +89,12 @@ function Skills() {
             <strong>desafios dinâmicos</strong> e <strong>contribuir</strong>{" "}
             para <strong> projetos inovadores</strong>.
           </p>
-
-          <img
-            src={systemicVisionPic}
-            alt="Tecnologias que trabalho"
-            id="systemicVisionPic"
-          />
-        </section>
+        </SlideInSection>
+        <img
+          src={systemicVisionPic}
+          alt="Tecnologias que trabalho"
+          id="systemicVisionPic"
+        />
       </main>
 
       <footer>

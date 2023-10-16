@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
 import "../styles/AboutMe.css";
 import myPicAboutMePage from "../assets/eu - sobre.png";
-
+import { Variants, motion } from "framer-motion";
+import SlideInSection from "./SlideInSection";
+import SlideInParagraph from "./SlideInParagraph";
 
 function AboutMe() {
   return (
@@ -28,30 +30,32 @@ function AboutMe() {
         </nav>
       </header>
       <main>
-        <section id="about_me_page_section">
+        <SlideInSection id="about_me_page_section">
           <h1>Muito Prazer!</h1>
-          <p>
+          <SlideInParagraph>
             Me chamo Esdras de Melo Motta e <b>atuo</b> como
             <b>desenvolvedor back-end</b> desde os meus <b>16 anos</b>.
-          </p>
-          <p>
+          </SlideInParagraph>
+          <SlideInParagraph>
             Sempre fui muito <b>curioso</b> e, por conta disso, desde meus{" "}
             <b>9 anos</b> de idade sou <b>apaixonado</b> por
             <b> tecnologia</b> e por tudo que envolva
             <b> criação de aplicações</b>.
-          </p>
-          <p>
-            Ao longo do tempo <b>atuando</b> como <b>desenvolvedor back-end</b>, tive a
-            oportunidade de trabalhar em mais de <b>10 projetos</b> que puderam <b> agregar </b>
-            muito à minha <b>carreira</b>, ajudando-me a <b>aprender coisas novas</b> e a
-            lidar com <b>desafios</b> e <b>contextos</b> diferentes em cada <b>cliente</b>.
-          </p>
-          <img
-            src={myPicAboutMePage}
-            id="my_about_pic"
-            alt="Foto de perfil de Esdras"
-          />
-        </section>
+          </SlideInParagraph>
+          <SlideInParagraph>
+            Ao longo do tempo <b>atuando</b> como <b>desenvolvedor back-end</b>,
+            tive a oportunidade de trabalhar em mais de <b>10 projetos</b> que
+            puderam <b> agregar </b>
+            muito à minha <b>carreira</b>, ajudando-me a{" "}
+            <b>aprender coisas novas</b> e a lidar com <b>desafios</b> e{" "}
+            <b>contextos</b> diferentes em cada <b>cliente</b>.
+          </SlideInParagraph>
+        </SlideInSection>
+        <img
+          src={myPicAboutMePage}
+          id="my_about_pic"
+          alt="Foto de perfil de Esdras"
+        />
         <footer>
           <svg
             xmlns="http://www.w3.org/2000/svg"

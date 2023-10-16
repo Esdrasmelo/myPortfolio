@@ -53,4 +53,8 @@ p {
     position: absolute;
     top: 400px;
     left: 500px;
-}   
+}
+
+#contact_page_container {
+    overflow: hidden;
+}

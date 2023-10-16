@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
 import "../styles/Contact.css";
 import networkPic from "../assets/network.png";
+import SlideInSection from "./SlideInSection";
+import SlideInParagraph from "./SlideInParagraph";
 
 function Contact() {
   return (
-    <div>
+    <div id="contact_page_container">
       <header>
         <nav>
           <ul>
@@ -27,11 +29,11 @@ function Contact() {
         </nav>
       </header>
       <main>
-        <section id="first_contact_section">
+        <SlideInSection id="first_contact_section">
           <h1>Vamos nos conectar!</h1>
-          <p>Você pode me encontrar nas seguintes nas redes sociais abaixo.</p>
-
-          <img src={networkPic} id="networkPic" alt="" />
+          <SlideInParagraph>
+            Você pode me encontrar nas seguintes nas redes sociais abaixo.
+          </SlideInParagraph>
 
           <a
             href="https://www.linkedin.com/in/esdras-de-melo-motta/"
@@ -210,7 +212,8 @@ function Contact() {
               </defs>
             </svg>
           </a>
-        </section>
+        </SlideInSection>
+        <img src={networkPic} id="networkPic" alt="" />
       </main>
       <footer>
         <svg
