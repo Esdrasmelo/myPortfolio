@@ -1,0 +1,14 @@
+.social-medias {
+  display: flex;
+  gap: 4rem;
+  margin-top: 5rem;
+}
+
+.social-medias svg {
+  transition: all 0.2s ease-in-out;
+}
+
+.social-medias svg:hover {
+  opacity: 0.6;
+  transform: scale(1.1);
+}

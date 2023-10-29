@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  color: #1a1a1a;
+  font-family: "Inter";
+  font-size: 4rem;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+
+
+img {
+  aspect-ratio: 1/1;
+  width: 100%;
+  max-width: 460px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+}
+
+.scrollbar {
+  width: 12px;
+  background-color: #f2f2f2;
+}
+
+.scrollbar-thumb {
+  background-color: #888;
+}
