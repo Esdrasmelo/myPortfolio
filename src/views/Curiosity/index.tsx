@@ -1,22 +1,39 @@
-import "./styles.css";
 import dataStructurePic from "../../assets/curiosity-data_structure.png";
-import myPicCrashCourse from "../../assets/Frame 94.png";
-import mePlayingBass from "../../assets/eu - bass.png";
 import SlideInSection from "../../components/SlideInSection";
 import Container from "../../components/Container";
 import SlideInParagraph from "../../components/SliderInParagraph";
 import PhotoFrame from "../../components/PhotoFrame";
 import { useEffect } from "react";
 
-import PenguinImage1 from "../../assets/photos/penguin1.jpg";
-import PenguinImage2 from "../../assets/photos/penguin2.webp";
+import MinicursoImage1 from "../../assets/photos/minicurso/IMG_4600.jpg";
+import MinicursoImage2 from "../../assets/photos/minicurso/IMG_4238.jpg";
+import MinicursoImage3 from "../../assets/photos/minicurso/IMG_4239.jpg";
+import MinicursoImage4 from "../../assets/photos/minicurso/IMG_4240.jpg";
+import MinicursoImage5 from "../../assets/photos/minicurso/IMG_4242.jpg";
+import MinicursoImage6 from "../../assets/photos/minicurso/IMG_4243.jpg";
+import MinicursoImage7 from "../../assets/photos/minicurso/IMG_4360.jpg";
+import MinicursoImage8 from "../../assets/photos/minicurso/IMG_4361.jpg";
+import MinicursoImage9 from "../../assets/photos/minicurso/IMG_4391.jpg";
+import MinicursoImage10 from "../../assets/photos/minicurso/IMG_4470.jpg";
+import MinicursoImage11 from "../../assets/photos/minicurso/IMG_4471.jpg";
+import MinicursoImage12 from "../../assets/photos/minicurso/IMG_4472.jpg";
+import MinicursoImage13 from "../../assets/photos/minicurso/IMG_4568.jpg";
+import MinicursoImage14 from "../../assets/photos/minicurso/IMG_4571.jpg";
+import MinicursoImage15 from "../../assets/photos/minicurso/IMG_4593.jpg";
+import MinicursoImage16 from "../../assets/photos/minicurso/IMG_4594.jpg";
+import MinicursoImage17 from "../../assets/photos/minicurso/IMG_4237.jpg";
+
+import MusicoImage1 from "../../assets/photos/musico/IMG_20230402_205555_035.jpg";
+import MusicoImage2 from "../../assets/photos/musico/IMG_20230226_204126_139.jpg";
+import MusicoImage3 from "../../assets/photos/musico/IMG_20230226_204126_222.jpg";
+import MusicoImage4 from "../../assets/photos/musico/1677519422333 (1).jpg";
+import MusicoImage5 from "../../assets/photos/musico/IMG_20230807_220718_801.jpg";
+import MusicoImage6 from "../../assets/photos/musico/IMG_9186.JPG (1).jpg";
 
 function Curiosity() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-
-  console.log([myPicCrashCourse, mePlayingBass]);
 
   return (
     <main>
@@ -64,7 +81,27 @@ function Curiosity() {
           </SlideInParagraph>
         </SlideInSection>
 
-        <PhotoFrame photos={[PenguinImage1, PenguinImage2]} />
+        <PhotoFrame
+          photos={[
+            MinicursoImage1,
+            MinicursoImage2,
+            MinicursoImage3,
+            MinicursoImage4,
+            MinicursoImage5,
+            MinicursoImage6,
+            MinicursoImage7,
+            MinicursoImage8,
+            MinicursoImage9,
+            MinicursoImage10,
+            MinicursoImage11,
+            MinicursoImage12,
+            MinicursoImage13,
+            MinicursoImage14,
+            MinicursoImage15,
+            MinicursoImage16,
+            MinicursoImage17,
+          ]}
+        />
       </Container>
 
       <Container>
@@ -90,8 +127,17 @@ function Curiosity() {
             .
           </SlideInParagraph>
         </SlideInSection>
-        {/* <img src={mePlayingBass} alt="" /> */}
-        <PhotoFrame photos={[PenguinImage1, PenguinImage2]} />
+
+        <PhotoFrame
+          photos={[
+            MusicoImage2,
+            MusicoImage4,
+            MusicoImage1,
+            MusicoImage3,
+            MusicoImage5,
+            MusicoImage6,
+          ]}
+        />
       </Container>
     </main>
   );

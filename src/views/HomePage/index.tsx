@@ -1,4 +1,3 @@
-import "./styles.css";
 import "fontsource-poppins";
 import "fontsource-inter";
 import myPicHomePage from "../../assets/eu - inicio.png";
