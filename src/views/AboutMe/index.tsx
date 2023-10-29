@@ -1,4 +1,3 @@
-import "./styles.css";
 import myPicAboutMePage from "../../assets/eu - sobre.png";
 import SlideInSection from "../../components/SlideInSection";
 import SlideInParagraph from "../../components/SliderInParagraph";

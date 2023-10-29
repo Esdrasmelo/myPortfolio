@@ -8,7 +8,7 @@ type Props = {
   photos: string[];
 };
 
-function PhotoFrame({ photos }: Props) {
+function PhotoFrame({ photos}: Props) {
   const [currentPhoto, setCurrentPhoto] = useState(0);
   const imageRef = useRef<HTMLImageElement>(null);
 
@@ -49,6 +49,7 @@ function PhotoFrame({ photos }: Props) {
       style={{
         transform: `rotate(${rotateAmount}deg)`,
       }}
+      id="testando"
     >
       <div className="photo-frame__photo">
         <img src={currentPhotoUrl} ref={imageRef} alt="" className="photo" />

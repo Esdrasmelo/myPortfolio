@@ -1,4 +1,3 @@
-import "./styles.css";
 import techsPic from "../../assets/tecnologias.png";
 import systemicVisionPic from "../../assets/systemic-vision.png";
 import SlideInSection from "../../components/SlideInSection";

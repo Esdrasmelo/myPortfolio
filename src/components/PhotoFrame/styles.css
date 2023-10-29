@@ -6,6 +6,8 @@
 
   min-width: 390px;
   max-width: 390px;
+  
+  margin-bottom: 50px;
 }
 
 .photo-frame__photo {
@@ -53,7 +55,6 @@
   background: #fff;
   border-radius: 5px;
   transition: all 0.2s ease-in-out;
-  /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.10); */
 }
 
 .photo-frame__controls button:hover {
@@ -62,7 +63,6 @@
 }
 
 .photo-frame__controls button:active {
-  /* transform: scale(1); */
   transform: scale(1.1) translateY(2px);
 }
 
