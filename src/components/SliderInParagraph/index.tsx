@@ -1,9 +1,9 @@
+import "./styles.css";
 import { motion, Variants } from "framer-motion";
 import React, { ReactNode } from "react";
 
 interface AnimatedParagraphProps {
   children: ReactNode;
-  id?: string;
 }
 
 const paragraphVariants: Variants = {
@@ -11,16 +11,13 @@ const paragraphVariants: Variants = {
   visible: { opacity: 1, x: 0, transition: { duration: 0.5, ease: "easeOut" } },
 };
 
-const SlideInParagraph: React.FC<AnimatedParagraphProps> = ({
-  children,
-  id,
-}) => {
+const SlideInParagraph: React.FC<AnimatedParagraphProps> = ({ children }) => {
   return (
     <motion.p
-      id={id}
       initial="hidden"
       animate="visible"
       variants={paragraphVariants}
+      className="paragraph"
     >
       {children}
     </motion.p>

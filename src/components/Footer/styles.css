@@ -1,0 +1,10 @@
+footer.app-footer {
+  width: 100vw;
+  position: fixed;
+  bottom: -10px;
+}
+
+.app-footer svg {
+  width: 100%;
+  fill: #000;
+}
